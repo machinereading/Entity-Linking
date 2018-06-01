@@ -1,1 +1,2 @@
 *dbpedia* filter=lfs diff=lfs merge=lfs -text
+kbox* filter=lfs diff=lfs merge=lfs -text
