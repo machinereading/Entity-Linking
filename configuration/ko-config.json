@@ -1,33 +1,3 @@
-﻿{
-	"morph_analyzer":"preprocessed",
-	"overlapping":true,
-	"relation_window":50000,
-	"boundary":{
-		"method":"crf",
-		"model":"model/crf.train",
-		"train":true,
-		"train_dir":"data/training/"
-	},
-	"disambiguation":{ 
-		"model":"model/model.txt",
-		"train":false,
-		"train_dir":"data/training/"
-	},
-	"kb":[{
-			"name":"dbpedia-instance",
-			"kb_addr": "143.248.135.60",
-			"kb_id":"dba",
-			"kb_passwd":"dba",
-			"graph_iri":"http://ko.dbpedia.org",
-			"entity_header": "http://ko.dbpedia.org/resource/",
-			"local_dump":{
-				"label_query":"preprocessing/dbpedia-instance.labels.sparql",
-				"label_cache":"label-cache",
-				"filename":"korean-dbpedia",
-				"filename_link":"korean-dbpedia-wikilink",
-				"uri_type_cache":"korean-dbpedia-uri-type-cache",
-				"is_reload":false
-			}
-		}
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:74e0861da333aa3a8fef4885ceb98fcfc5814ec299ba44177201809caf8516d3
+size 793

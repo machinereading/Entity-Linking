@@ -1,1 +1,3 @@
-페이스북은 2012년 6월 기준, 전 세계 9억 5000만명 이상의 활동 사용자가 활동 중인 세계 최대의 소셜 네트워크 서비스이다.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed19a6f9f258ea005bf1e4161202ea11d3cc52cf7f94a68671b7ad2df201df52
+size 161

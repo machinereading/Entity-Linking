@@ -1,7 +1,3 @@
-select distinct ?pred where {
-	{[[X1]] ?pred [[X2]]}
-	UNION
-	{[[X2]] ?pred [[X1]]}
-	FILTER(?pred != <http://dbpedia.org/ontology/wikiPageRedirects>)
-	FILTER(?pred != <http://dbpedia.org/ontology/wikiPageDisambiguates>)
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4560411c7e20281a6ebce1e99caf43a5471cfaf72d4e14344233a2afaa1bed68
+size 220

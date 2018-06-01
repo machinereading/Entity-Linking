@@ -1,11 +1,3 @@
-select distinct ?uri, ?label where {
-{?uri rdfs:label ?label . 
-FILTER NOT EXISTS {?uri <http://ko.dbpedia.org/property/wikiPageUsesTemplate> ?disambiguation .
-?disambiguation owl:sameAs <http://dbpedia.org/resource/Template:Disambiguation>}
-}
-UNION {?d <http://dbpedia.org/ontology/wikiPageDisambiguates> ?uri. ?d rdfs:label ?label. }
-UNION {?d <http://dbpedia.org/ontology/wikiPageRedirects> ?uri. ?d rdfs:label ?label. }
-FILTER(STRSTARTS(STR(?uri), "http://ko.dbpedia.org/resource"))
-FILTER NOT EXISTS {?uri <http://dbpedia.org/ontology/wikiPageRedirects> ?t}
-FILTER NOT EXISTS {?uri a <http://www.w3.org/2004/02/skos/core#Concept>}
-} 
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbfde69ef7d7640dd3b60a715b2093e4877977945841aeb14992c74b97d7c88b
+size 638

@@ -1,6 +1,3 @@
-select ?s, count(?p) as ?count where {
-	?s ?p [[X1]].
-	FILTER(?p != <http://dbpedia.org/ontology/wikiPageWikiLink>)
-	FILTER(?p != <http://dbpedia.org/ontology/wikiPageRedirects>)
-	FILTER(?p != <http://dbpedia.org/ontology/wikiPageDisambiguates>)
-} group by ?s
+version https://git-lfs.github.com/spec/v1
+oid sha256:0919f20ccc283ae29a9be3baa55b151dcda96018b62a34956b15b67fed5c0baa
+size 259
