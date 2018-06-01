@@ -1,0 +1,6 @@
+select ?s, count(?p) as ?count where {
+	?s ?p [[X1]].
+	FILTER(?p != <http://dbpedia.org/ontology/wikiPageWikiLink>)
+	FILTER(?p != <http://dbpedia.org/ontology/wikiPageRedirects>)
+	FILTER(?p != <http://dbpedia.org/ontology/wikiPageDisambiguates>)
+} group by ?s

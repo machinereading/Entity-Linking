@@ -1,0 +1,295 @@
+D:\Programs\Python\python.exe C:/Users/JUKIM/Desktop/ELU/entity_linking.py
+[1]
+[ 0.98943848]
+loading from local dump
+100000
+200000
+300000
+400000
+relation done
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+wikilink done
+loading label tree
+100000 200000 300000 400000 500000 600000 
+training boundary detector ... 
+opening boundary detection model
+boundary detection ready
+opening dm model
+덕혜옹주
+순종
+선임
+조선
+왕
+대한제국
+초대 황제
+고종
+귀인 양씨
+황녀
+덕 http://ko.dbpedia.org/resource/덕
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+덕혜옹주 http://ko.dbpedia.org/resource/덕혜옹주
+1 0.999437041689
+[0.0, 2, 1, 2, 1, 1]
+순 http://ko.dbpedia.org/resource/순_(군주)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+순종 http://ko.dbpedia.org/resource/당_순종
+1 0.999798363937
+[1.0413926851582251, 0, 0, 2, 1, 1]
+순종 http://ko.dbpedia.org/resource/고려_순종
+1 0.999833136986
+[0.8450980400142568, 0, 0, 1, 1, 1]
+순종 http://ko.dbpedia.org/resource/대한제국_순종
+1 0.99989665232
+[0.8450980400142568, 1, 0, 4, 1, 1]
+순종 http://ko.dbpedia.org/resource/순종_(생물학)
+1 0.999922799084
+[0.0, 0, 0, 0, 1, 1]
+선 http://ko.dbpedia.org/resource/선_(성씨)
+-1 -1.00026390761
+[0.6020599913279624, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/선_(음식)
+-1 -1.00026390761
+[0.6020599913279624, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/시카고_선타임스
+-1 -1.00030721309
+[1.1139433523068367, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/삼성_(불교)
+-1 -1.00040995478
+[2.3283796034387376, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/더_선
+-1 -1.00032304069
+[1.3010299956639813, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/선_(시호)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/곡선
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/선_(불교)
+-1 -1.00027880498
+[0.7781512503836436, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/직선
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/케이블
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/선_(철학)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/선인
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/밴쿠버_선
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/선_(볼티모어)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/천선
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/캘거리_선
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+선 http://ko.dbpedia.org/resource/토론토_선
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(성씨)
+-1 -1.00029757345
+[1.0, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(춘추)
+-1 -1.00103303157
+[1.591064607026499, 0, 1, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(영화)
+-1 -1.00023844038
+[0.3010299956639812, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(배우)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(전국)
+-1 -1.00025333775
+[0.47712125471966244, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/전조_(오호_십육국)
+-1 -1.00030107528
+[1.0413926851582251, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/후조
+-1 -1.00031247083
+[1.1760912590556813, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(식물)
+-1 -1.00023113966
+[0.0, 0, 0, 1, 1, 0]
+조 http://ko.dbpedia.org/resource/조성_(음악)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조_(동양_음악)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+조 http://ko.dbpedia.org/resource/조지프
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+조선 http://ko.dbpedia.org/resource/조선
+1 0.99982254075
+[3.330819466495837, 2, 0, 3, 1, 1]
+제 http://ko.dbpedia.org/resource/제_(춘추_전국)
+-1 -1.00133605945
+[1.6989700043360187, 0, 0, 0, 0, 0]
+제 http://ko.dbpedia.org/resource/북제
+-1 -1.00131236149
+[1.2041199826559248, 0, 0, 1, 0, 0]
+제 http://ko.dbpedia.org/resource/제_(남조)
+-1 -1.00130179162
+[1.0791812460476249, 0, 0, 1, 0, 0]
+제 http://ko.dbpedia.org/resource/전제_(전국)
+-1 -1.00126382162
+[0.8450980400142568, 0, 0, 0, 0, 0]
+제 http://ko.dbpedia.org/resource/제_(성씨)
+-1 -1.00119232606
+[0.0, 0, 0, 0, 0, 0]
+왕 http://ko.dbpedia.org/resource/왕
+1 0.999787866249
+[1.380211241711606, 0, 0, 1, 1, 1]
+왕이 http://ko.dbpedia.org/resource/왕이
+-1 -1.00027210623
+[0.6989700043360189, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대_(지질학)
+-1 -1.00027210623
+[0.6989700043360189, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대_(시호)
+-1 -1.00089842701
+[0.0, 0, 1, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/지질_시대
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/군대
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대나무
+-1 -1.00031924181
+[1.0413926851582251, 0, 0, 1, 1, 0]
+대 http://ko.dbpedia.org/resource/빨대
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대_(건축)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대_(단위)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대롱
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/대체
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대 http://ko.dbpedia.org/resource/막대
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대한 http://ko.dbpedia.org/resource/대한
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+대한제국 http://ko.dbpedia.org/resource/대한제국
+1 0.999873625249
+[2.0827853703164503, 2, 0, 6, 1, 1]
+대한제국 http://ko.dbpedia.org/resource/대한제국
+1 0.999873625249
+[2.0827853703164503, 2, 0, 6, 1, 1]
+초 http://ko.dbpedia.org/resource/초_(만화가)
+-1 -1.00027210623
+[0.6989700043360189, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/초_(각도)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/초_(시간)
+-1 -1.00025333775
+[0.47712125471966244, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/초_(십국)
+-1 -1.00030843921
+[0.6989700043360189, 0, 0, 2, 1, 0]
+초 http://ko.dbpedia.org/resource/초_(춘추_전국)
+-1 -1.00032304069
+[1.3010299956639813, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/식초
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/암초
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/양초
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+초 http://ko.dbpedia.org/resource/초_(성씨)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+황 http://ko.dbpedia.org/resource/황
+-1 -1.00028207412
+[0.6020599913279624, 0, 0, 1, 1, 0]
+황제 http://ko.dbpedia.org/resource/황제
+1 0.99976017163
+[1.7075701760979363, 0, 0, 1, 1, 1]
+고 http://ko.dbpedia.org/resource/고_(성씨)
+-1 -1.00027880498
+[0.7781512503836436, 0, 0, 0, 1, 0]
+고 http://ko.dbpedia.org/resource/고_(시호)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+고 http://ko.dbpedia.org/resource/고_(의상)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+고 http://ko.dbpedia.org/resource/고_(불교)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+고종 http://ko.dbpedia.org/resource/리_고종
+1 0.999825836312
+[1.146128035678238, 0, 0, 0, 1, 1]
+고종 http://ko.dbpedia.org/resource/고려_고종
+1 0.999833136986
+[0.8450980400142568, 0, 0, 1, 1, 1]
+고종 http://ko.dbpedia.org/resource/당_고종
+1 0.999804532908
+[1.3979400086720377, 0, 0, 0, 1, 1]
+고종 http://ko.dbpedia.org/resource/대한제국_고종
+1 0.999303745862
+[1.146128035678238, 2, 1, 4, 1, 1]
+고종 http://ko.dbpedia.org/resource/남송_고종
+1 0.999845499487
+[0.6989700043360189, 0, 0, 1, 1, 1]
+귀 http://ko.dbpedia.org/resource/귀
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+귀인 http://ko.dbpedia.org/resource/귀인_(심리학)
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+귀인 http://ko.dbpedia.org/resource/귀인_이론
+-1 -1.00021297314
+[0.0, 0, 0, 0, 1, 0]
+양 http://ko.dbpedia.org/resource/양
+-1 -1.00025333775
+[0.47712125471966244, 0, 0, 0, 1, 0]
+귀인양씨 http://ko.dbpedia.org/resource/귀인_양씨
+1 0.998563637469
+[1.0413926851582251, 1, 2, 1, 1, 1]
+양씨 http://ko.dbpedia.org/resource/양_(성씨)
+1 0.999863665996
+[0.6989700043360189, 0, 0, 0, 1, 1]
+황 http://ko.dbpedia.org/resource/황
+-1 -1.00028207412
+[0.6020599913279624, 0, 0, 1, 1, 0]
+황녀 http://ko.dbpedia.org/resource/황녀
+1 0.999922799084
+[0.0, 0, 0, 0, 1, 1]
+[{"confidence": 0.99943704168948555, "text": "덕혜옹주", "uri": "http://ko.dbpedia.org/resource/덕혜옹주", "start_offset": 0, "end_offset": 4, "id": 0}, {"confidence": 0.99992279908373005, "text": "순종", "uri": "http://ko.dbpedia.org/resource/순종_(생물학)", "start_offset": 6, "end_offset": 8, "id": 1}, {"confidence": 0.99982254075032762, "text": "조선", "uri": "http://ko.dbpedia.org/resource/조선", "start_offset": 15, "end_offset": 17, "id": 2}, {"confidence": 0.99978786624897475, "text": "왕", "uri": "http://ko.dbpedia.org/resource/왕", "start_offset": 24, "end_offset": 25, "id": 3}, {"confidence": 0.99987362524905832, "text": "대한제국", "uri": "http://ko.dbpedia.org/resource/대한제국", "start_offset": 28, "end_offset": 32, "id": 4}, {"confidence": 0.999760171629688, "text": "황제", "uri": "http://ko.dbpedia.org/resource/황제", "start_offset": 37, "end_offset": 39, "id": 5}, {"confidence": 0.99984549948652024, "text": "고종", "uri": "http://ko.dbpedia.org/resource/남송_고종", "start_offset": 40, "end_offset": 42, "id": 6}, {"confidence": 0.99856363746926879, "text": "귀인양씨", "uri": "http://ko.dbpedia.org/resource/귀인_양씨", "start_offset": 44, "end_offset": 49, "id": 7}, {"confidence": 0.99992279908373005, "text": "황녀", "uri": "http://ko.dbpedia.org/resource/황녀", "start_offset": 51, "end_offset": 53, "id": 9}]
+
+Process finished with exit code 0

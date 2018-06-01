@@ -1,0 +1,7 @@
+select distinct ?pred where {
+	{[[X1]] ?pred [[X2]]}
+	UNION
+	{[[X2]] ?pred [[X1]]}
+	FILTER(?pred != <http://dbpedia.org/ontology/wikiPageRedirects>)
+	FILTER(?pred != <http://dbpedia.org/ontology/wikiPageDisambiguates>)
+}

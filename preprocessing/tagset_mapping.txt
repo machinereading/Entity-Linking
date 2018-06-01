@@ -1,0 +1,85 @@
+﻿sp SP
+sf SF
+sl SS
+sr SS
+sd SO
+se SE
+su SW
+sy SW
+
+f SL
+
+ncpa NNG
+ncps MMG
+ncn NNG
+ncr NNG
+nqpa NNP
+nqpb NNP
+nqpc NNP
+nqq NNP
+nbu NNB
+nbn NNB
+nbs NNB
+npp NP
+npd NP
+nnc NR
+nno NR
+nq NR
+
+ii IC
+
+pvd VV
+pvg VV 
+pad VA
+paa VA
+px VX
+
+mmd MM
+mma MM
+mad MAG
+maj MAJ
+mag MAG
+
+jcs JKS 
+jco JKO
+jcc JKC
+jcm JKG
+jcv JKV
+jca JKB
+jcj JC
+jct JC
+jcr JKQ
+jxc JX
+jxf JX
+jp JKO
+
+ep EP
+ecc EC
+ecs EC
+ecx EC
+etn ETN
+etm ETM
+ef EF
+
+xp XPN
+xsnu XSN
+xsnca XSN
+xsncc XSN
+xsna XSN
+xsns XSN
+xsnp XSN
+xsnx XSN
+xsvv XSN
+xsva XSN
+xsvn XSN
+xsms XSA
+xsmn XSA
+xsam XSA
+xsas XSA
+iwg NN G
+nunk NNG
+junk JKU
+xsv XSN 
+xsn XSN
+xsm XSA
+xsa XSA

@@ -1,0 +1,47 @@
+{
+	"morph_analyzer":"ko_hannanum",			// 사용 형태소 분석기 (ko_etri, ko_hannanum)
+	"overlapping":true,					// inclusion solver 사용 여부 (겹치는 것중에 하나만 선택하면 true)
+	"relation_window":100000,			// relation_window 사이즈 (사용하지 않음)
+	"boundary":{						// boundary detection 관련
+		"method":"crf",					// 사용하는 알고리즘 (crf, lstm) : crf가 훨씬 좋음
+		"model":"model/crf.train",		// 모델 저장 위치
+		"train":true,					// trainig 여부 --> lstm 은 무조건 true
+		"train_dir":"data/training/"	// training 할 데이터 위치
+	},
+	"disambiguation":{ 					// disambiguation 모듈 관련
+		"model":"model/model.txt",		// 모델 저장 위치 (SVM)
+		"train":false,					// training 여부
+		"train_dir":"data/training/"	// training 할 데이ㅓㅌ 위치
+	},
+	"kb":[{
+			"name":"dbpedia-instance",		//kb 이름
+			"kb_addr": "143.248.135.60",	// kb 주소
+			"kb_id":"dba",					// kb 계정 아이디
+			"kb_passwd":"dba",				// kb 계정 비밀번호
+			"graph_iri":"http://ko.dbpedia.org",	// 타겟 graph_iri
+			"entity_header": "http://ko.dbpedia.org/resource/",	// 해당 kb 에서 사용되는 헤더
+			"local_dump":{			
+				"label_query":"preprocessing/dbpedia-instance.labels.sparql",	// 레이블 캐시를 위한 sparql 경로
+				"label_cache":"label-cache",									// 레이블 캐시 이름
+				"filename":"korean-dbpedia",									// 명시적 관계 덤프 파일 이름
+				"filename_link":"korean-dbpedia-wikilink",						// 암시적 관계 덤프 파일 이름
+				"is_reload":false												// 레이블 캐시 및 관계 덤프를 불러올지 그대로 쓸지
+			}
+		},
+		{
+			"name":"english-temp",
+			"kb_addr": "143.248.135.60",
+			"kb_id":"dba",
+			"kb_passwd":"dba",
+			"graph_iri":"http://ko.dbpedia.org",
+			"entity_header": "http://ko.dbpedia.org/resource/",
+			"local_dump":{
+				"label_query":"preprocessing/dbpedia-instance.labels.sparql",
+				"label_cache":"english-label-cache",
+				"filename":"english-dbpedia-small",
+				"filename_link":"english-dbpedia-wikilink-small",
+				"is_reload":false
+			}
+		}
+	]
+}
